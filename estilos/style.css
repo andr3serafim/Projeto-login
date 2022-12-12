@@ -49,6 +49,19 @@ main {
 }
 
 #formulario {
+    font-size: 0.9em;
     display: block;
     padding: 10px;
+}
+
+#logar{
+    display: block;
+    font-size: 1em;
+    width: 100%; /* */
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

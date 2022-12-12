@@ -8,6 +8,7 @@ desktop: 992px até 1200px
 telas grandes: acima de 1200px
 */
 
+/*TABLET*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -29,6 +30,7 @@ telas grandes: acima de 1200px
     }
 }
 
+/*DESKTOP*/
 @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -39,13 +41,24 @@ telas grandes: acima de 1200px
     }
 
     #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #formulario {
-        float: right;
+        float: left;
         width: 47%;
     }
+
+    div#formulario > h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
 }
+
